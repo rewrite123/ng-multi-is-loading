@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "build:prod": "npx @angular/cli@11 build multi-is-loading --prod",
+    "test": "npx @angular/cli@11 test",
     "lint": "ng lint"
   },
   "private": true,
